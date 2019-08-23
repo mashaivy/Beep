@@ -5,19 +5,20 @@ $(document).ready(function(){
 
 $("form#enterNumber").submit(function(event) {
     event.preventDefault();
+    $("result1").show();
     var numberInput = $("input").val();
 
     var newArray = [];
 
     newArray.push(numberInput);
-
-    console.log(numberInput);
-
+    console.log(newArray)
     for (i=0; i=newArray.length; i++) {
-    if (numberInput.includes("1"))
-    "result1".show }
-//unhide responces
-})
-})
+    if (numberInput[i].includes("1")); {
 
+    }
+
+
+};
+});
+});
 //bussiness
