@@ -2,15 +2,17 @@
 $(document).ready(function(){
 
 $("form#enterNumber").submit(function(event) {
-    event.preventDeafault();
-    var numberInput =parseInt($("input#anynum").val())
-    //unhide responces
-var result = numberRange
+    event.preventDefault();
+    var numberInput = $("input").val().split(" ");
+
+
+
+
+var newArray = [];
+newArray.push(numberInput)
+console.log(newArray)
+//unhide responces
 })
 })
 
 //bussiness
-var result = numberInput.split("");
-var newArray = [];
-newArray.push(result)
-console.log(newArray)
