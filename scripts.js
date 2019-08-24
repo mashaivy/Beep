@@ -17,12 +17,12 @@ $(document).ready(function(){
                 //resultArray.push(sorry);
                 //console.log(resultArray)
                 //alert ("I'm sorry, Dave. I'm afraid I can't do that.")
-                $("#responces1").append("boop"); 
+                $("#responces1").append("I'm sorry, Dave. I'm afraid I can't do that.");
                 //$("#result").show(); didn't work either
             }else if (numberInput[i].includes("2")||numberInput[i]==="2") {
-                alert ("Your number input is: Boop!")
+                $("#responces1").append("boop!");
             }else if (numberInput[i].includes("1")||numberInput[i]==="1") {
-                alert ("your number input is: Beep!")
+                    $("#responces1").append("beep!");
             };
         };
 
