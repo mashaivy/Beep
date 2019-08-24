@@ -2,18 +2,23 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-   <script type="text/javascript" src="scripts.js"></script>
-   <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css">
         <title>Beep Boop </title>
     </head>
     <body>
-        <h3>Enter any number here</h3>
-        <form id ="enterNumber">
-        <input type="number">
-        <button type="submut"> Submit </button>
-        </form>
-        <span id="responces1"> results go here </span>
-        
+        <div class="container">
+            <h3>Enter any number here</h3> <br>
+            <p> Try entering any number here and see what our robot has to say. Please be nice to him and take into comsideration that he's still young and big numbers might scare him off :)</p>
+            <form id ="enterNumber">
+                <input type="number">
+                <button type="submut"> Submit </button>
+            </form>
+            <span id="responces1">  </span>
+            <div id="noResult"> Try entering another number
+            </div>
+        </div>
+        <img src="robot.png" height:"400" width="400">
     </body>
 </html>
