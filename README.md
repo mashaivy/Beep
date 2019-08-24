@@ -14,11 +14,11 @@ a web application that takes a number from a user and returns a range of numbers
 
 ## Specs
 
-* 1. Spec: The program returns a range of numbers from 0 to the users inputted number
+* 1.Spec: The program returns a range of numbers from 0 to the users inputted number
 * Input: "4"
 * Output: "0, 1, 2, 3, 4"
 
-* 2. Spec: The program will replace user inputted numbers with either "Boop", "Beep" or "I'm sorry, Dave. I'm afraid I can't do that."
+* 2.Spec: The program will replace user inputted numbers with either "Boop", "Beep" or "I'm sorry, Dave. I'm afraid I can't do that."
 * input: "1"
 * output: "Beep!"
 * input: "2"
@@ -26,9 +26,9 @@ a web application that takes a number from a user and returns a range of numbers
 * input: "3"
 * output: "I'm sorry, Dave. I'm afraid I can't do that."
 
-* 3. Spec: The program will priorotize the exceptions listed above from most importnat (will appply first) to least important (if the more important ones didn't apply)
+* 3.Spec: The program will priorotize the exceptions listed above from most importnat (will appply first) to least important (if the more important ones didn't apply)
 * input: "13"
-* output:  "I'm sorry, Dave. I'm afraid I can't do that."
+* output: "I'm sorry, Dave. I'm afraid I can't do that."
 
 
 ## Setup/Installation Requirements
