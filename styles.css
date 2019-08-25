@@ -24,7 +24,28 @@ form {
     margin-top: 50px;
 }
 
-img {
-    margin-right: 150px;
+.robot {
     float: right;
+    margin-right: 100px;
+    margin-top: 10%;
+
 }
+
+img.bubble {
+
+    float: right
+    top: 80%;
+    left: 80%;
+  position: relative;
+
+}
+ #responces1 {
+     top: 50%;
+     left: 80%;
+   position: relative;
+ }
+ container2 {
+     position: relative;
+      text-align: center;
+      color: white;
+ }
