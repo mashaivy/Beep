@@ -2,20 +2,25 @@
     display: none;
 }
 
-h3 {
-    color: red;
-    text-decoration: underline;
+h2 {
+    color: #ed4e4e;
+    text-align: center;
+    background-color: #4f8c76;
 }
- body {
-     background-color: #cae8d2;
- }
 
- button {
-  font-size: 10px;
-  height:35px;
-  width:45px;
-  border-radius: 12px;
+body {
+    background-color: #cae8d2;
 }
+
+button {
+    font-size: 10px;
+    height:35px;
+    width:45px;
+    border-radius: 12px;
+    background-color: white;
+    color:  #4f8c76;
+}
+
 #noResult {
     display: none;
 }
@@ -27,8 +32,7 @@ form {
 .robot {
     float: right;
     margin-right: 100px;
-    margin-top: 10%;
-
+    margin-top: 5%;
 }
 
 img.bubble {
@@ -36,16 +40,29 @@ img.bubble {
     float: right
     top: 80%;
     left: 80%;
-  position: relative;
-
+    position: relative;
 }
- #responces1 {
-     top: 50%;
-     left: 80%;
-   position: relative;
- }
- container2 {
-     position: relative;
-      text-align: center;
-      color: white;
- }
+
+#responces1 {
+    font-style: italic;
+    top: 80%;
+    left: 75%;
+    position: relative;
+    color: #ed4e4e;
+     border-radius: 50%;
+       background: white;
+}
+
+container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+em {
+    color: #ed4e4e;
+}
+
+p {
+    margin-top: 7%;
+}
